@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    /* border: 0.1px blue solid; */
+}
+
+.main{
+    margin: 10px 10px;
+    /* position: absolute; */
+}
+
+.lol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+li{
+    margin: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_main_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    box-shadow: 1px 7px 13px -4px rgba(0,0,0,0.27);
+}
+
+.float_menu{
+    width: 100%;
+    background-color: white;
+    opacity: .82;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.main_img{
+    background-image: url('./pexels-pixabay-164938.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+span{
+    color: blue;
+}
+
+.moto{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.ach{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+
+.img2{
+    flex: 1;
+    background-color: #fbffa7;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.img2 > *{
+    margin-left: 50px;
+}
+
+.vid{
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+
+.ach1{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.left{
+    background-color: #b6ffc0;
+    height: 100%;
+    /* width: 55%; */
+    flex: 1.5;
+}
+
+.right{
+    background-color: #ff764d;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
